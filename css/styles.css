@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Martel|Patrick+Hand&display=swap');
+
+
+/* THE HOME PAGE */
+.box{width: 850px;
+float:right;
+border:1px solid none;
+background-color: black;
+opacity: 0.9;
+}
+
+.box ul li{
+    width: 200px;
+    float:right;
+    margin: 10px auto;
+    text-align:center;
+}
+
+.box ul li a{
+    text-decoration: none;
+    color:rgb(253, 250, 250);
+}
+
+.box ul li:hover{
+    background-color: rgb(17, 17, 16);
+}
+.box ul li a:hover{
+    color:white;
+}
+
+body{
+    font-family: 'Martel', ;
+    color:white;
+    background:url("../images/pizza4.jpg")no-repeat;
+    background-size:cover;
+}
+.wd{
+    width:430px;
+    height: 639px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+}
+.wd h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:200px;
+    font-family: 'Martel' ;
+}
+.wd p{
+    font-family: 'Patrick Hand' ;
+    text-align:justify;
+    color: white;
+    font-weight: bold;
+    line-height:3.5;
+}
