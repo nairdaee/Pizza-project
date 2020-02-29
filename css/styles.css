@@ -22,10 +22,10 @@ opacity: 0.9;
 }
 
 .box ul li:hover{
-    background-color: rgb(17, 17, 16);
+    background-color: rgb(68, 68, 45);
 }
 .box ul li a:hover{
-    color:white;
+    color:rgb(3, 3, 3);
 }
 
 body{
@@ -34,23 +34,30 @@ body{
     background:url("../images/pizza4.jpg")no-repeat;
     background-size:cover;
 }
-.wd{
+#wd{
     width:430px;
     height: 639px;
     background-color: black;
     opacity: 0.9;
     padding: 55px;
 }
-.wd h1{
+#wd h1{
     text-align: center;
     text-transform: uppercase;
     font-weight:200px;
     font-family: 'Martel' ;
+    color:white;
 }
-.wd p{
+#wd p{
     font-family: 'Patrick Hand' ;
     text-align:justify;
     color: white;
     font-weight: bold;
     line-height:3.5;
+}
+.end{
+    color:white;
+    font-family: 'Caveat';
+    font-weight:bold;
+    font-size: 21pt;
 }

@@ -1,0 +1,119 @@
+#icon h2 {
+    font-family: 'Butcherman', cursive;
+    font-family: 'Fredericka the Great', cursive;
+}
+#icon p {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Merienda', cursive;
+}
+#top-inner {
+    background-color: rgb(231, 233, 227);
+    text-align: center;
+    opacity: 0.8;
+    padding: 10px;
+}
+#top-inner p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #242222;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+}
+#slogan {
+    color: brown;
+}
+body {
+    background-image: url("pizza1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: 
+}
+body h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Butcherman', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Abril Fatface', cursive;
+}
+h4 {
+    color: white;
+}
+h6 {
+    font-family: 'Fascinate', cursive;
+    font-size: 1.3em;
+    color: burlywood;
+}
+#showorder {
+    text-align: center;
+}
+.btn {
+    float: right;
+}
+.table {
+    opacity: 0.8;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2em;
+    color:rgb(124, 212, 193);
+}
+form label {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Butcherman', cursive;
+    font-family: 'Fredericka the Great', cursive;
+}
+#del {
+    color:rgb(201, 126, 14);
+    text-align: center;
+    font-family: 'Butcherman', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#cart h4 {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+}
+#logo {
+    width: -100%;
+}
+.par {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+}
+.card-body a , button {
+    font-family: 'Butcherman', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Abril Fatface', cursive; 
+}
+option {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Merienda', cursive;
+}
+#footer {
+    background-color: rgb(10, 70, 78);
+    color: rgb(34, 156, 9);
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Merienda', cursive;
+    height: 30vh;
+    border-radius: 5px;
+}
+#cl {
+    color: rgb(12, 5, 82);
+}
+.sub {
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Merienda', cursive;
+}
+#subscribe {
+    color:rgb(201, 126, 14);
+    text-decoration: underline;
+}
