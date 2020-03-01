@@ -1,3 +1,14 @@
+/* MEDIA QUERIES SPECIFICATIONS*/
+@media only screen and (min-width: 1000px){
+    #portfolio>div>div>p{
+      font-size: 13pt;
+    }
+  }
+  @media only screen and (max-width: 600px){
+    header div{
+      padding-top: 30vw;
+    }  
+  }
 #icon h2 {
     font-family: 'Butcherman', cursive;
     font-family: 'Fredericka the Great', cursive;
@@ -28,7 +39,7 @@ body {
     background-color:black;
     background-size: cover;
     background-attachment: fixed;
-    background-blend-mode: 
+    background-blend-mode: lighten;
 }
 body h3 {
     text-align: center;
@@ -121,3 +132,12 @@ option {
     color:rgb(201, 126, 14);
     text-decoration: underline;
 }
+/* SCROLL BAR STYLING*/
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(0, 0, 0);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(223, 71, 11);
+    border-radius: 30px;
+  }
