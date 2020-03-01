@@ -12,6 +12,7 @@
 #icon h2 {
     font-family: 'Butcherman', cursive;
     font-family: 'Fredericka the Great', cursive;
+    font-size:32pt;
 }
 #icon p {
     font-family: 'Shadows Into Light', cursive;
@@ -36,7 +37,7 @@
     color: brown;
 }
 body {
-    background-color:black;
+    background: linear-gradient(rgb(71, 28, 7), black);
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: lighten;
@@ -100,7 +101,13 @@ form label {
     font-family: 'Butcherman', cursive;
     font-family: 'Fredericka the Great', cursive;
     font-family: 'Abril Fatface', cursive; 
-    background-color: rgb(165, 32, 32);
+    
+}
+
+.card-body a , button{
+    border:none;
+    background: rgb(241, 78, 3);
+    outline: none;
 }
 .card-body par {
     color: rgb(133, 45, 11);
@@ -111,14 +118,23 @@ option {
     font-family: 'Merienda', cursive;
 }
 #footer {
-    background-color: rgb(61, 66, 66);
+    background-color: rgb(0, 0, 0);
     color: rgb(201, 91, 17);
     font-family: 'Shadows Into Light', cursive;
     font-family: 'Kalam', cursive;
     font-family: 'Merienda', cursive;
-    height: 30vh;
+    height: 50vh;
     border-radius: 5px;
 }
+
+#footer p {
+    word-spacing:2px;
+    font-size: 21pt;
+}
+#footer a{
+    color:white;
+}
+
 #cl {
     color: rgb(117, 63, 19);
 }
@@ -132,6 +148,30 @@ option {
     color:rgb(201, 126, 14);
     text-decoration: underline;
 }
+input[type=reset] {
+    background-color: black;
+    color:white;
+}
+button[type=submit] {
+    border-color:orangered;
+    color: orangered;
+    background-color: black;
+}
+button[type=submit]:hover{
+    border-radius: 30px;
+    background: rgb(241, 90, 2);
+    outline: none;
+    border:none;
+    color:black;
+}
+#message{
+    background: rgb(44, 43, 43);
+    border: none;
+    color: white;
+    transition: all 0.2s ease;
+    padding: 7px;
+    opacity:0.7;
+  }
 /* SCROLL BAR STYLING*/
 body::-webkit-scrollbar {
     width: 10px;
