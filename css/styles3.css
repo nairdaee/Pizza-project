@@ -43,7 +43,7 @@ h4 {
 h6 {
     font-family: 'Fascinate', cursive;
     font-size: 1.3em;
-    color: burlywood;
+    color: rgb(250, 142, 1);
 }
 #showorder {
     text-align: center;
@@ -55,10 +55,10 @@ h6 {
     opacity: 0.8;
     font-family: 'Shadows Into Light', cursive;
     font-size: 1.2em;
-    color:rgb(124, 212, 193);
+    color:rgb(241, 76, 35);
 }
 form label {
-    color: white;
+    color: rgb(241, 76, 35);
     font-weight: bold;
     font-size: 1.1em;
     font-family: 'Butcherman', cursive;
@@ -90,6 +90,9 @@ form label {
     font-family: 'Fredericka the Great', cursive;
     font-family: 'Abril Fatface', cursive; 
     background-color: rgb(165, 32, 32);
+}
+.card-body par {
+    color: rgb(133, 45, 11);
 }
 option {
     font-family: 'Shadows Into Light', cursive;
