@@ -64,8 +64,8 @@ $(document).ready(function(){
         var pCrust = pizzaDisplay[0].crust;
         var pSize = pizzaDisplay[0].size;
         var pQuantity = pizzaDisplay[0].quantity;
-        var price;
-        var totalPrice;
+        // var price;
+        // var totalPrice;
             switch (pTop) {
                 case "mushroom":
                     price = pizzaPrice.deluxeMega + pizzaPrice.mushrooms ;
@@ -94,12 +94,11 @@ $(document).ready(function(){
         $("#placetoping").text(pTop);
         $("#placequantity").text("x"+pQuantity);
         $("#placetype").text(pType);
-        $("#placeprice").text(totalPrice);
+        // $("#placeprice").text(totalPrice);
     });
-});
 
     //user logic for delivery contact
-    $("#contactD").hide();
+    // $("#contactD").hide();
 
 
     $("#contactD").submit(function(e){
@@ -140,20 +139,20 @@ $(document).ready(function(){
     });
     $(".btn1").click(function(e){
         e.preventDefault();
-        alert("The deliverly cost will be 300Ksh.Please fill in your details on the form below")
+        alert("The delivery will cost 300Ksh.Please fill in your details on the form below")
         locate =  prompt("Enter your location: ");
-        phonenumber =  prompt("Enter your Phone Number: ");
-       alert ("your order will be delivered to "+locate);
+        phonenumber =  prompt("Enter your Phone Number so that we are able to reach you: ");
+       alert ("Dear customer, Your order will be delivered to "+ locate + " in not more than 20 minutes");
        $("#placeprice").text(totalPrice + 300);
     });
     $(".btn2").click(function(e){
         e.preventDefault();
         $("#placeprice").text(totalPrice + 0);
-        alert("Thankyou.Come again");
+        alert("Thankyou dear customer! We look forward to serving you again");
     });
 
     $("#contactD").hide();
     $("#subscribe").click(function(){
         $("#contactD").show();
     })
-  
+});
