@@ -96,6 +96,7 @@ $(document).ready(function(){
         $("#placetype").text(pType);
         $("#placeprice").text(totalPrice);
     });
+});
 
     //user logic for delivery contact
     $("#contactD").hide();
@@ -155,4 +156,4 @@ $(document).ready(function(){
     $("#subscribe").click(function(){
         $("#contactD").show();
     })
-});
+  
