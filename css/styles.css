@@ -1,3 +1,14 @@
+/* MEDIA QUERIES SPECIFICATIONS*/
+@media only screen and (min-width: 1000px){
+    #portfolio>div>div>p{
+      font-size: 13pt;
+    }
+  }
+  @media only screen and (max-width: 600px){
+    header div{
+      padding-top: 30vw;
+    }  
+  }
 @import url('https://fonts.googleapis.com/css?family=Caveat|Martel|Patrick+Hand&display=swap');
 
 
@@ -61,3 +72,13 @@ body{
     font-weight:bold;
     font-size: 21pt;
 }
+
+/* SCROLL BAR STYLING*/
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(22, 22, 11);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(190, 102, 19);
+    border-radius: 30px;
+  }
