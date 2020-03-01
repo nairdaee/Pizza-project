@@ -105,9 +105,9 @@
     </div>
     <br>
     <br>
-    <h3>Our Pizzas are sort by Classic Pizzas and Deluxe Pizzas</h3>
+    <h3><u>PIZZA VARIETIES</u></h3>
     <div class="container">
-        <h3>Our Deluxe pizzas are as follows :</h3>
+        <h3>Deluxe options:</h3>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -141,7 +141,9 @@
             </div>
         </div>
         <br>
-        <h3>Our Classic pizzas are as follows :</h3>
+        <br>
+        <br>
+        <h3>Classic options:</h3>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -177,7 +179,7 @@
     </div>
     <br>
     <div class="container" id="cart">
-        <h4>Your Cart</h4>
+        <h4><u>YOUR CART</u><br>[Please checkout to see your total]</h4>
         <table class="table table-dark">
             <thead>
                 <tr>
@@ -199,7 +201,7 @@
                     <td id="placecrust"></td>
                     <td id="placequantity"></td>
                     <td id="placeprice"></td>
-                </tr>
+                </tr>                          
             </tbody>
         </table>
     </div>
@@ -259,18 +261,20 @@
                         <input class="form-control" type="number" id="quantity">
                     </div>
                     <button type="submit" class="btn btn-outline-success">Add to cart</button>
+                    <input type="reset" class="rest" value="Reset"/>
                 </form>
             </div>
             <div class="col-md-4" id="del">
                 <p>We also offer delivery services.</p>
                 <button type="submit" class="btn1 btn-outline-danger">delivery</button>
                 <button type="submit" class="btn2 btn-outline-danger">checkout</button>
-                <!-- <p>The service is free for customers <br>around Nairobi.Charges will be added to <br>cost for delivery outside Nairobi</p>
-                <p>If interested fill your address info on your right</p> -->
+                <br>
+                <br>
+                <br>
                 <form id="comment">
                     <div class="form-group">
-                        <label for="comments" id="cl">Comment Here</label>
-                        <textarea class="form-control" id="message" rows="3"></textarea>
+                        <label for="comments" id="cl"><u>Leave a message</u></label>
+                        <textarea class="form-control" id="message" rows="10" columns="5">Write us feedback</textarea>
                         <br>
                         <button type="submit" class="btn btn-outline-success">Submit</button>
                     </div>
@@ -291,31 +295,28 @@
                     <input type="text" class="form-control" placeholder="City/town/Address" id="tAddress">
                     <br>
                     <button type="submit" class="btn btn-outline-success">Subscribe</button>
+                    <input type= "reset" class="rest" value="Reset"/>
                 </form>
             </div>
         </div>
     </div>
     <br>
-    <div class="container">
+    <div class="container">       
         <div class="row" id="footer">
-            <div class="col-md-3">
-                <h5>Recent Posts</h5>
-                <p> > Teriffic Tuesdays</p>
+            <div class="column" >
+                <br>
+                <p>THANKYOU, DEAR CUSTOMER, FOR CHOOSING US,<br>YOUR MOST TRUSTED PIZZA PLACE</p>
+                <br>
+                <br>
+                <p>Go back to<a href="index.html">  Home</a></p>
             </div>
-            <div class="col-md-6">
-                <h5>Recent Comments</h5>
-                <p id="placeComment">
-
-                </p>
+            <div class="column">
+                <img src="azziplace.png" class="thumb-nail" alt="" style="width:300px;height:300px;">       
             </div>
-            <div class="col-md-3">
-                <h5>Contact Us</h5>
-                <p>Email : azziplace@gmail.com</p>
-                <p>Tel : 0722222999</p>
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-            </div>
+           
+            
         </div>
+        <p><center>©Azziplace 2020 </center></p>      
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
