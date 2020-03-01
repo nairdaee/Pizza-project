@@ -1,14 +1,4 @@
-/* MEDIA QUERIES SPECIFICATIONS*/
-@media only screen and (min-width: 1000px){
-    #portfolio>div>div>p{
-      font-size: 13pt;
-    }
-  }
-  @media only screen and (max-width: 600px){
-    header div{
-      padding-top: 30vw;
-    }  
-  }
+
 #icon h2 {
     font-family: 'Butcherman', cursive;
     font-family: 'Fredericka the Great', cursive;
