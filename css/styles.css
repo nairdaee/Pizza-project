@@ -1,44 +1,45 @@
-/* MEDIA QUERIES SPECIFICATIONS*/
-@media only screen and (min-width: 1000px){
-    #portfolio>div>div>p{
-      font-size: 13pt;
-    }
-  }
-  @media only screen and (max-width: 600px){
-    header div{
-      padding-top: 30vw;
-    }  
-  }
+
 @import url('https://fonts.googleapis.com/css?family=Caveat|Martel|Patrick+Hand&display=swap');
 
 
 /* THE HOME PAGE */
-.box{width: 850px;
-float:right;
-border:1px solid none;
-background-color: black;
-opacity: 0.9;
+.container{
+    width:auto;
+    float:right;
+    border:1px solid none;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 50;
 }
 
-.box ul li{
-    width: 200px;
+.container ul li{
+    width:inherit;
     float:right;
     margin: 10px auto;
     text-align:center;
 }
 
-.box ul li a{
+.container ul li a{
     text-decoration: none;
     color:rgb(253, 250, 250);
 }
 
-.box ul li:hover{
+.container ul li:hover{
     background-color: rgb(68, 68, 45);
 }
-.box ul li a:hover{
+.active, .container ul li a:hover{
     color:rgb(3, 3, 3);
 }
-
+.submenu1 {
+    display: none;
+}
+.container ul li:hover .submenu1{
+    display:block;
+    position:absolute;
+    background-color: rgb(136, 52, 21);
+    margin-top: 15px;
+    margin-left: -15px:
+}
 body{
     font-family: 'Martel', ;
     color:white;
@@ -46,11 +47,13 @@ body{
     background-size:cover;
 }
 #wd{
+    position: absolute;
     width:430px;
     height: 639px;
     background-color: black;
     opacity: 0.9;
     padding: 55px;
+    z-index: 0;
 }
 #wd h1{
     text-align: center;
