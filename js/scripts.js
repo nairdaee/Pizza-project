@@ -120,8 +120,8 @@ $(document).ready(function(){
         var eAddress = customerDisplay[0].emailAddress;
         var cAddress = customerDisplay[0].address;
         
-        if (fName == "" || pNumber == "" || cAddress == ""){
-            alert("Complete filling the form ")
+        if (fName == "" || pNumber == "" || cAddress == "" || lName == "" ){
+            alert("Please fill in all parts of the form ")
         }else {
             alert("Thank you "+fName+" "+lName+" for your subscription."+eAddress+" will receive an email of our newsletter");
         }
@@ -154,5 +154,11 @@ $(document).ready(function(){
     $("#contactD").hide();
     $("#subscribe").click(function(){
         $("#contactD").show();
+        
     })
+
 });
+//a method that will reset values of all elements in a form
+$(".reset").bind("submit", function() {
+    $("input[type=text], textarea").val("");
+})
