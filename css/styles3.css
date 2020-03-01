@@ -25,7 +25,7 @@
     color: brown;
 }
 body {
-    background-image: url("pizza1.jpg");
+    background-color:black;
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: 
@@ -89,6 +89,7 @@ form label {
     font-family: 'Butcherman', cursive;
     font-family: 'Fredericka the Great', cursive;
     font-family: 'Abril Fatface', cursive; 
+    background-color: rgb(165, 32, 32);
 }
 option {
     font-family: 'Shadows Into Light', cursive;
@@ -96,8 +97,8 @@ option {
     font-family: 'Merienda', cursive;
 }
 #footer {
-    background-color: rgb(10, 70, 78);
-    color: rgb(34, 156, 9);
+    background-color: rgb(61, 66, 66);
+    color: rgb(201, 91, 17);
     font-family: 'Shadows Into Light', cursive;
     font-family: 'Kalam', cursive;
     font-family: 'Merienda', cursive;
@@ -105,7 +106,7 @@ option {
     border-radius: 5px;
 }
 #cl {
-    color: rgb(12, 5, 82);
+    color: rgb(117, 63, 19);
 }
 .sub {
     color: white;
