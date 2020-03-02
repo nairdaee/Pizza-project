@@ -94,7 +94,7 @@ $(document).ready(function(){
         $("#placetoping").text(pTop);
         $("#placequantity").text("x"+pQuantity);
         $("#placetype").text(pType);
-        // $("#placeprice").text(totalPrice);
+        $("#placeprice").text(totalPrice);
     });
 
     //user logic for delivery contact
