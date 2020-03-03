@@ -14,5 +14,5 @@ I used html,css,javascript as well as jQuery languages in creating my project.
 ## Support and contact details
 In case of any questions,comments or issues please email me via etadriano2@gmail.com
 ### License
-Copyright (c) {2020} Adrian Etenyi, Moringa School
+Copyright (c) 2020 Adrian Etenyi, Moringa School
 Licensed under the [MIT license](LICENSE)
