@@ -13,7 +13,7 @@
 }
 
 .container ul li{
-    width:inherit;
+    width:100px;
     float:right;
     margin: 10px auto;
     text-align:center;
