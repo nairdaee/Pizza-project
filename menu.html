@@ -23,11 +23,13 @@
             <div class="jumbotron" id="top-inner">
                 <div class="row">
                     <div class="col-md-8" id="icon">
-                        <h2>AZZIPLACE</h2>
+                        <h2><a href="#" class="fa fa-cutlery"></a>AZIIPLACE</h2>
                         <br>
-                        <p>A 2 Michellin star pizza restaturant bring you <span id="slogan">our unique world-class pizzas</span>. Prepare to have your mouth watered</p>
+                        <p>A 2 Michellin star pizza restaurant bringing you <span id="slogan">our unique world-class pizzas</span>. Prepare to have your mouth watered!!!</p>
                         <a href="#" class="fa fa-facebook"></a>
                         <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-youtube"></a>
                     </div>
                     <div class="col-md-4" id="logo">
                         <img src="azziplace.png" class="thumb-nail" alt="" style="width:200px;height:200px;">
@@ -179,7 +181,7 @@
     </div>
     <br>
     <div class="container" id="cart">
-        <h4><u>YOUR CART</u><br>[Please checkout to see your total]</h4>
+        <h4><u>YOUR CART</u><a href="#"class="fa fa-shopping-cart"></a><br>[Please checkout to see your total]</h4>
         <table class="table table-dark">
             <thead>
                 <tr>
@@ -210,7 +212,7 @@
             <div class="col-md-4">
                 <form action="" id="makeOrder">
                     <div class="form-group">
-                        <label for="pizzaType">What pizza Type Would You Like ?</label>
+                        <label for="pizzaType">Pizza type</label>
                         <select class="form-control" id="pizzatype">
                             <option value="Dulex Cheese Burger">Deluxe Cheese Burger</option>
                             <option value="Dulex Chicken & Beef Pepperoni">Deluxe Chicken & Beef Pepperoni</option>
@@ -221,7 +223,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="pizzaSize">What pizza Size Would You Like ?</label>
+                        <label for="pizzaSize">Pizza size</label>
                         <select class="form-control" id="pizzasize">
                             <option value="mega">Mega</option>
                             <option value="large">Large</option>
@@ -229,10 +231,10 @@
                         </select>
                     </div>
                     <div class="form-check">
-                        <label for="">What toppings would you like ?</label>
+                        <label for="">Extra toppings</label>
                         <br>
                         <input class="form-check-input" type="checkbox" value="mushroom" id="mushroom">
-                        <label class="form-check-label" for="mushroom">mushhrooms @150ksh</label>
+                        <label class="form-check-label" for="mushroom">mushrooms @150ksh</label>
                         <br>
                         <input class="form-check-input" type="checkbox" value="blackolives" id="blackolives">
                         <label class="form-check-label" for="blackolives">blackolives @200ksh</label>
@@ -247,33 +249,30 @@
                         <label class="form-check-label" for="red & green pepper">red & green pepper @50ksh</label>
                     </div>
                     <div class="form-group">
-                        <label for="pizzaCrust">What pizza Crust Would You Like ?</label>
+                        <label for="pizzaCrust">Pizza crust</label>
                         <select class="form-control" id="pizzacrust">
                             <option value="thin">thin</option>
-                            <option value="thick">thick</option>
-                            <option value="thick">stuffed</option>
-                            <option value="thick">gluten-free</option>
-                            <option value="thick">crispy</option>                               
+                            <option value="thick">thick</option>                                                     
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="pizzaQuantity">How many pizzas would you like ?</label>
+                        <label for="pizzaQuantity">Number of pizzas</label>
                         <input class="form-control" type="number" id="quantity">
                     </div>
                     <button type="submit" class="btn btn-outline-success">Add to cart</button>
-                    <input type="reset" class="rest" value="Reset"/>
+                    <input type="reset" class="rest" value="Clear"/>
                 </form>
             </div>
             <div class="col-md-4" id="del">
-                <p>We also offer delivery services.</p>
-                <button type="submit" class="btn1 btn-outline-danger">delivery</button>
-                <button type="submit" class="btn2 btn-outline-danger">checkout</button>
+                <p>We offer delivery services.</p>
+                <button type="submit" class="btn1 btn-outline-danger"><a href="#"class="fa fa-car"></a></button>
+                <button type="submit" class="btn2 btn-outline-danger"><a href="#"class="fa fa-credit-card"></a></button>
                 <br>
                 <br>
                 <br>
                 <form id="comment">
                     <div class="form-group">
-                        <label for="comments" id="cl"><u>Leave a message</u></label>
+                        <label for="comments" id="cl"><u>Leave a message</u><a href="#"class="fa fa-comments"></a></label>
                         <textarea class="form-control" id="message" rows="10" columns="5" placeholder="Give us feedback so that we can better our services"></textarea>
                         <br>
                         <button type="submit" class="btn btn-outline-success">Submit</button>
@@ -281,7 +280,7 @@
                 </form>
             </div>
             <div class="sub col-md-4 ">
-                <p><span id="subscribe">Subscribe </span>to our monthly newsletter.</p>
+                <p><span id="subscribe">Subscribe </span>to our monthly <a href="#"class="fa fa-newspaper-o"></a></p>
                 <form action="" id="contactD">
                     <label for="">Fill in your details to subscribe to our monthly newsletter</label>
                     <input type="text" class="form-control" placeholder="First name" id="fName">
@@ -295,7 +294,7 @@
                     <input type="text" class="form-control" placeholder="City/town/Address" id="tAddress">
                     <br>
                     <button type="submit" class="btn btn-outline-success">Subscribe</button>
-                    <input type= "reset" class="rest" value="Reset"/>
+                    <input type= "reset" class="rest" value="Clear"/>
                 </form>
             </div>
         </div>
@@ -308,7 +307,7 @@
                 <p>THANKYOU, DEAR CUSTOMER, FOR CHOOSING US,<br>YOUR MOST TRUSTED PIZZA PLACE</p>
                 <br>
                 <br>
-                <p>Go back to<a href="index.html">  Home</a></p>
+                <p>Go back to<a href="index.html" class="fa fa-home"></a></p>
             </div>
             <div class="column">
                 <img src="azziplace.png" class="thumb-nail" alt="" style="width:300px;height:300px;">       
