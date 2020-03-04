@@ -64,8 +64,7 @@ $(document).ready(function(){
         var pCrust = pizzaDisplay[0].crust;
         var pSize = pizzaDisplay[0].size;
         var pQuantity = pizzaDisplay[0].quantity;
-        // var price;
-        // var totalPrice;
+       
             switch (pTop) {
                 case "mushroom":
                     price = pizzaPrice.deluxeMega + pizzaPrice.mushrooms ;
@@ -98,7 +97,6 @@ $(document).ready(function(){
     });
 
     //user logic for delivery contact
-    // $("#contactD").hide();
 
 
     $("#contactD").submit(function(e){
